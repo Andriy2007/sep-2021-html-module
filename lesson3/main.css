@@ -1,0 +1,21 @@
+h1  {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    border: 10px dashed red;
+}
+h3{
+    border: 5px silver solid;
+}
+.description {
+    background: blue;
+    text-align: justify;
+}
+img {
+    float: right;
+    border: 10px solid crimson;
+}
+li {
+    background: chartreuse;
+}
