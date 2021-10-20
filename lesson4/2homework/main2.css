@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    height: 850px;
+    width: 1600px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.zzz {
+    width: 1600px;
+    height: 150px;
+    background-color: blue;
+}
+.xxx {
+    width: 430px;
+    height: 500px;
+    background-color: chartreuse;
+    align-self: flex-start;
+}
+
+.bbb {
+    background-color: aqua;
+    height: 250px;
+    width: 1150px;
+}
+.nnn {
+    background-color: blueviolet;
+    height:250px;
+    width: 1150px;
+}
+.vvv {
+    align-self: self-start;
+}
+.ccc {
+    width: 1600px;
+    height: 150px;
+    background-color: blue;
+}
