@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 1000px;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 0 auto;
+}
+.zzz {
+    background-color: blue;
+    width: 1000px;
+    height: 200px;
+}
+.vvv {
+background-color: blueviolet;
+    width: 310px;
+    height: 300px;
+    column-gap: 10px;
+}
+.xxx {
+    display: flex;
+    column-gap: 35px;
+}
+.ccc {
+    background-color: blue;
+    width: 1000px;
+    height: 430px;
+
+}
