@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    height: 850px;
+    width: 1600px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.vvv {
+    align-self: self-start;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.hg500 {
+    height: 509px;
+}
+.hg250 {
+    height: 250px;
+}
+.hg150 {
+    height: 150px;
+}
+.w1600b {
+    width: 1600px;
+    background-color: blue;
+}
+.w430r {
+    width: 430px;
+    background-color: red;
+}
+.w1150a {
+    width: 1150px;
+    background-color: aqua;
+}
