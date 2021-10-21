@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 1000px;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.xxx {
+    display: flex;
+    column-gap: 35px;
+}
+.hg430 {
+    height: 430px;
+}
+.hg300 {
+    height: 300px;
+}
+.hg200 {
+    height: 200px;
+}
+.w1000blue {
+    width: 1000px;
+    background-color: blue;
+}
+.w310bv {
+    width: 310px;
+    background-color: blueviolet;
+}
