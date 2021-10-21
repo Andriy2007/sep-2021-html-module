@@ -1,0 +1,30 @@
+.wrap {
+    width: 1890px;
+    height: 930px;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+
+}
+.hg600 {
+    height: 600px;
+}
+.hg300 {
+    height: 300px;
+}
+.w1890 {
+    width: 1890px;
+}
+.w1300 {
+    width: 1300px;
+}
+.w550 {
+    width: 550px;
+}
+.bg {
+    background-color: aqua;
+}
