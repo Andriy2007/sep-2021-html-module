@@ -14,6 +14,7 @@
     column-gap: 15px;
     margin: 0 auto;
     justify-content: center;
+    text-align: center;
 }
 .vvv {
     align-self: self-start;
