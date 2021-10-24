@@ -1,0 +1,224 @@
+.top {
+    width: 1890px;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.top_item {
+    width: 80px;
+    height: 20px;
+    background-color: darkblue;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+.chapter {
+    width: 1890px;
+    height: 120px;
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ch_first {
+    width: 350px;
+    height: 100px;
+    background-color: darkblue;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.ch_kids {
+    width: 110px;
+    height: 25px;
+    background-color: darkblue;
+    display: flex;
+    border-radius: 50px;
+    margin: 20px;
+}
+.ch_second {
+    display: flex;
+    margin-right: 100px;
+}
+.subject {
+    height: 750px;
+    width: 1890px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    flex-direction: column;
+}
+.subject_first {
+    height: 250px;
+    width: 650px;
+    background-color: darkblue;
+    margin: 50px;
+}
+.subject_second {
+    height: 100px;
+    width: 400px;
+    background-color: darkblue;
+}
+.menu {
+    width: 1890px;
+    height: 700px;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_products {
+    display: flex;
+    margin: 30px;
+}
+.menu_main {
+    border: 10px solid aqua;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_products_first {
+    background-color: darkblue;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+.menu_items {
+    text-align: center;
+}
+.mid {
+    height: 700px;
+    width: 1890px;
+    background-color: darkblue;
+}
+.mid_item {
+    height: 600px;
+    width: 400px;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 10px solid transparent;
+    border-radius: 10px;
+    row-gap: 10px;
+}
+.mid_about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 700px;
+}
+.mid_first {
+    height: 250px;
+    width: 250px;
+    border-radius: 100px;
+    background-color: silver;
+}
+.mid_second {
+    height: 30px;
+    width: 250px;
+    background-color: silver;
+}
+.mid_third {
+    height: 30px;
+    width: 250px;
+    background-color: silver;
+}
+.mid_item:hover {
+    border-color: aqua;
+}
+.hard {
+    display: flex;
+}
+.title {
+    height: 110px;
+    width: 1890px;
+    background-color: silver;
+}
+.container {
+    height: 1000px;
+    width: 1890px;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 60px;
+    justify-content: center;
+}
+.container_first, .container_second, .container_third, .container_four, .container_five, .container_six {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 10px solid aqua;
+    border-radius: 15px;
+}
+.hard_item {
+    height: 700px;
+    width: 1890px;
+    background-color: silver;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.hard_left {
+    height: 500px;
+    width: 740px;
+    background-color: darkblue;
+}
+.hard_right {
+    height: 500px;
+    width: 740px;
+    background-color:aqua;
+}
+.container_fsup {
+    width: 400px;
+    height: 150px;
+    background-color: darkblue;
+}
+.container_tsup {
+    width: 400px;
+    height: 40px;
+    background-color: darkblue;
+    align-self: flex-end;
+}
+.support {
+    height: 200px;
+    width: 1890px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.sup_item {
+    width: 1890px;
+    height: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.sup_item_a {
+    height: 40px;
+    width: 40px;
+    background-color: silver;
+}
+.sup_twoitem {
+    height: 5px;
+    width: 500px;
+    background-color: aqua;
+    align-self: center;
+}
