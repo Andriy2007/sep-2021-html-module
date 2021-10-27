@@ -1,0 +1,4 @@
+@media screen and (max-width: 400px) {
+    .top {
+        background-color: red;
+    }
