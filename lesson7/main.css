@@ -1,0 +1,113 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header {
+    height: 100vh;
+    background: url("../lesson6/images/hero image.jpg") no-repeat center/cover;
+}
+.top_header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+}
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFf;
+    text-decoration: none;
+}
+.header_logo {
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+}
+.header_contact {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+.header_phone {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    border-left: 2px solid #ffffff;
+    padding-left: 15px
+}
+.header_title {
+    color: #D67E35;
+    margin-top: 203px;
+    max-width: 500px;
+
+}
+.header_title p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_title p::before,
+.header_title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #ffffff;
+}
+.header_title p::before {
+    margin-right: 10px;
+}
+.header_title p::after {
+    margin-left: 10px;
+}
+.header_title h2 {
+    font-size: 40px;
+    margin-left: 35px;
+}
+.header_title h1 {
+    font-size: 70px;
+    line-height: 92px;
+}
+.header_main_btn {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 350px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bot {
+    margin-top: 200px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.card_top {
+    width: 126px;
+    height: 104px;
+    text-align: center;
+}
+.card-body {
+    font-size: 26px;
+}
+.card-footer {
+    font-size: 26px;
+    text-align: center;
+}
