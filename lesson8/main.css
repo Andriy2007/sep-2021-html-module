@@ -5,7 +5,11 @@
 .top_left, .top_right, .place, .top_menu {
     display: flex;
 }
+.general {
+    width: 1900px;
+}
 .top_menu  {
+    width: 1900px;
     height: 36px;
     background: black;
     align-items: center;
@@ -65,6 +69,7 @@
     text-decoration: none;
 }
 .main {
+    width: 1900px;
     height: 196px;
     box-shadow: 0px 0px 20px;
 }
@@ -226,6 +231,7 @@
     align-items: center;
 }
 .mid {
+    width: 1600px;
     display: flex;
     margin-left: 280px;
     column-gap: 30px;
@@ -453,6 +459,7 @@
     align-items: center;
 }
 .container {
+    width: 1620px;
     column-gap: 30px;
     margin-top: 30px;
 }
@@ -524,7 +531,7 @@
     color: #005BB9;
 }
 .bot {
-    width: 1920px;
+    width: 1900px;
     height: 390px;
 }
  .bot_news {
@@ -593,6 +600,7 @@
 }
 .foot {
     margin-top: 120px;
+    width: 1900px;
     height: 408px;
     background: #0C1A2A;
     flex-wrap: wrap;

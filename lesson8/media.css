@@ -28,7 +28,9 @@
         width: 100px;
         row-gap: 5px;
     }
-
+    .top_menu {
+        width: 320px;
+    }
     .main_top_first {
         width: 135px;
         height: 47px;
@@ -116,6 +118,23 @@
         row-gap: 10px;
         align-items: flex-end;
     }
+    .corpus {
+        width: 320px;
+    }
+    .mid {
+        width: 320px;
+    }
+    .mouse {
+        width: 305px;
+    }
+    .container {
+        width: 305px;
+    }
+    .more {
+        justify-content: center;
+        width: 300px;
+        height: 34px;
+    }
     .eye {
         width: 290px;
         height: 195px;
@@ -189,6 +208,14 @@
     }
     .face {
         flex-direction: column
+    }
+    .more_button {
+        width: 160px;
+        height: 34px;
+    }
+    .more_item {
+        width: 160px;
+        height: 34px;
     }
 
     .mid {
@@ -353,6 +380,9 @@
         margin: 0;
         width: 100%;
     }
+    .bot {
+        width: 320px;
+    }
     .more {
         margin: 0;
     }
@@ -370,15 +400,29 @@
         margin: 0;
     }
     .foot_left {
+        width: 320px;
         flex-direction: column;
         margin-left: 15px;
     }
     .foot_right {
+        width: 320px;
         height: 600px;
         margin-left: 15px;
     }
     .foot {
+        width: 320px;
         height: 1500px;
+        flex-wrap: nowrap;
+    }
+    .foot_other {
+        flex-direction: column;
+    }
+    .foot_other_b {
+        margin: 0;
+    }
+    .input-group_b {
+        height: 30px;
+        width: 70px;
     }
     .end {
         column-gap: 40px;
@@ -395,7 +439,7 @@
         flex-direction: column;
     }
     .input-group_b {
-        width: 300px;
+        width: 305px;
     }
 }
 
