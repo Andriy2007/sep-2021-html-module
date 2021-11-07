@@ -13,6 +13,41 @@
     text-decoration: none;
     column-gap: 280px;
 }
+.place {
+    width: 152px;
+    height: 20px;
+}
+.menu_item_info {
+    width: 102px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.menu_item_coop {
+    width: 125px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.menu_item {
+    width: 76px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.place_item {
+    width: 128px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.place_item_b {
+    display: none;
+}
 .top_left, .top_right {
     column-gap: 30px;
 }
@@ -33,6 +68,53 @@
     height: 196px;
     box-shadow: 0px 0px 20px;
 }
+.main_item_a {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.main_item_b {
+    width: 168px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+.main_item_wp {
+    width: 216px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.main_item_thir {
+    width: 127px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.main_item_four_b {
+    width: 154px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+}
+.main_item_five_a {
+    width: 200px;
+    height: 23px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.main_item_five_b {
+    width: 200px;
+    height: 14px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+}
 .top_first_photo_mob {
     display: none;
 }
@@ -41,6 +123,7 @@
 }
 .main_top, .main_top_second, .main_item_third, .main_top_four, .main_bot {
     display: flex;
+    align-items: center;
 }
 .main_top, .main_top_first, .main_bot, .main_acc {
     align-items: center;
@@ -93,6 +176,12 @@
 .main_acc {
     margin-left: 120px;
     column-gap: 50px;
+}
+.main_item_kor {
+    width: 69px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 16px;
 }
 .main_item_cut, .input-group, .main_acc, .main_item_login, .main_item_like, .main_item_shop {
     display: flex;
@@ -357,7 +446,7 @@
 .container {
     display: flex;
 }
-.container_comment, .container_bot, .container_price, .container_lol {
+.container_comment, .container_bot, .container_price, .container_lol, .container_lol_i {
     display: flex;
 }
 .container_comment, .container_bot {
@@ -367,7 +456,7 @@
     column-gap: 30px;
     margin-top: 30px;
 }
-.container_lol {
+.container_lol, .container_lol_i {
     width: 316px;
     flex-direction: column;
 }
